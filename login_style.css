@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  /* ----- Login Webpage ----- */
+  /*Container*/
+  .container{
+       /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+       box-shadow: 20px 20px 30px #140635;
+       width: 500px;
+       height: 500px;
+       display: flex;
+       margin: auto;
+       margin-top: 50px;
+  }
+  /*Login Form*/
+  .form input{
+    text-transform: none !important; 
+  }
+  .form{
+    font-size: 11px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+  .form h2{
+    font-size: 3rem;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 40px;
+  }
+  .box{
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 1px solid #39A388;
+    outline: none;
+    border-radius: 20px;
+  }
+  #submit{
+      padding: 12px 30px;
+      width: 40%;
+      margin-top: 40px;
+      background-color: black;
+      color: white;
+      font-weight: bold;
+      border: none;
+      outline: none;
+      border-radius: 20px;
+  }
+  #submit:hover{
+    cursor: pointer;
+    background-color: #39A388;
+    width: 45%;
+    transition: 0.2s linear;
+  }
+  .form a{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+  }
+  .form a:hover{
+    color: #39A388;
+  }
+  .side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #39A388;
+  }
+  .side img{
+    width: 250px;
+    height: 250px;
+  }
+  .side img:hover{
+    width: 270px;
+    height: 270px;
+  }
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    overflow-x: hidden;
+    background-color: #11052C;
+  }
+  
